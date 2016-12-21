@@ -129,7 +129,7 @@ of *88%* after 10 epochs.
 Again, to help visualize what the network is learning, here are the
 filters after the first convolutional layer.
 
-![Part2 Filters](img-med" src="./img/part2-filters.png)
+![Part2 Filters](./img/part2-filters.png)
 
 To fine train an existing network, the last 2 layers of the network
 are replaced with layers that will produce a proper outout for the
