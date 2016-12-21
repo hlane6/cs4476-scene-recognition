@@ -48,12 +48,12 @@ accuracy of *52.9333%* after 50 epochs.
 
 The training and validation errors can be seen in the chart below:
 
-![Part1 Plot][./img/part1-plot.png]
+![Part1 Plot](./img/part1-plot.png)
 
 To look at what the network is actually learning, the learned filters
 from the first layer can be seen below:
 
-![Part1 Filters][./img/part1-filters.png]
+![Part1 Filters](./img/part1-filters.png)
 
 The code that created the full network can be seen below:
 
@@ -124,12 +124,12 @@ from before isn't actually deep, at least not like VGG-F is.
 After the fine tuning, the VGG-F network could acheive an accuracy
 of *88%* after 10 epochs.
 
-![Part2 Plot][./img/part2-plot.png]
+![Part2 Plot](./img/part2-plot.png)
 
 Again, to help visualize what the network is learning, here are the
 filters after the first convolutional layer.
 
-![Part2 Filters][img-med" src="./img/part2-filters.png]
+![Part2 Filters](img-med" src="./img/part2-filters.png)
 
 To fine train an existing network, the last 2 layers of the network
 are replaced with layers that will produce a proper outout for the

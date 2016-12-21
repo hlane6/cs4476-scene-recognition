@@ -10,7 +10,7 @@ scene represents. As this problem is widely researched,
 many useful algorithms have been developed to aid in this
 task. This project aims to look at some of the methods
 used over the years to identify images within the 15
-scene database as described in [Lazebnik et al. 2006][15-scene-database].
+scene database as described in [Lazebnik et al. 2006](15-scene-database).
 This database consists of 15 different scenes including:
 forest, kitchen, industrial, mountain, coast, and others.
 In each scene are 100 images, each with a correct label.
@@ -61,7 +61,7 @@ consisting of what vocabulary SIFT features were found in each
 image. Let's look at what one of the histograms can actually
 look like.
 
-![Bag of SIFT Example][./img/bagofsift-example.jpg]
+![Bag of SIFT Example](./img/bagofsift-example.jpg)
 
 Looking at the histogram, the most common vocabulary SIFT examples were 
 found at around SIFT #75, SIFT #140, and SIFT #200. Thus, images that
@@ -178,7 +178,7 @@ lambda value was run 10 times and an average taken. The best
 average lambda value was chosen to be used throughout all other
 runs. The resulting averages:
 
-![Lambda Graph][./img/lambda-graph.jpg]
+![Lambda Graph](./img/lambda-graph.jpg)
 
 ###Extra Credit
 
@@ -245,4 +245,4 @@ Here are the resulting accuracies:
 + Bag of SIFT w/ Nearest Neighbor - *50.5%*
 + Bag of SIFT w/ SVM - *66.5%*
 
-![Confusion Matrix][./img/confusion_matrix.png]
+![Confusion Matrix](./img/confusion_matrix.png)
